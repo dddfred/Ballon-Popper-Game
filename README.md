@@ -1,2 +1,2 @@
 # Ballon-Popper-Game
-CSCS 3667 Lab game
+CISC 3667 Lab game
