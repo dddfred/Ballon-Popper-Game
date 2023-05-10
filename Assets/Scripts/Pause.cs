@@ -94,7 +94,7 @@ public class Pause : MonoBehaviour
     {
         // Find the sliders on the pause canvas
         Slider masterSlider = pauseMenuUI.transform.Find("MainSlider").GetComponent<Slider>();
-        Slider musicSlider = pauseMenuUI.transform.Find("MusicVolume").GetComponent<Slider>();
+        Slider musicSlider = pauseMenuUI.transform.Find("MusicSlider").GetComponent<Slider>();
         Slider sfxSlider = pauseMenuUI.transform.Find("SFXSlider").GetComponent<Slider>();
 
         // Assign their onValueChanged parameter to their corresponding methods in the VolumeController script

@@ -646,6 +646,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &398789663 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 705106507015453054, guid: d43fdf549c9f544aba9050e59ad58ad3, type: 3}
+  m_PrefabInstance: {fileID: 109129940}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b15ea197134f53b8761b1d164cbb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,15 +1407,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 635690215464990268, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 635690215464990268, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 635690215464990268, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 635690215829852366, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1412,11 +1423,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 635690216380737459, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 635690216380737459, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3721257688219681402, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1520,31 +1531,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3721257689057443209, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3721257689057443209, guid: bbf637ad637284f2782edbfccff107da, type: 3}
-      propertyPath: m_TagString
-      value: pause
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4211870063028940431, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4211870063028940431, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4211870063028940431, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4211870063477360368, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4211870063477360368, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4211870063712313354, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1552,23 +1559,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8415824544373098677, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8415824544373098677, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8415824544373098677, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8415824545200127774, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8415824545200127774, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8415824546306004505, guid: bbf637ad637284f2782edbfccff107da, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1651,6 +1658,10 @@ PrefabInstance:
       propertyPath: masterSlider
       value: 
       objectReference: {fileID: 1260763187}
+    - target: {fileID: 3855174902455919281, guid: d155d882246b045a58a4caa42db949d2, type: 3}
+      propertyPath: volumeController
+      value: 
+      objectReference: {fileID: 398789663}
     - target: {fileID: 3855174902455919294, guid: d155d882246b045a58a4caa42db949d2, type: 3}
       propertyPath: m_Name
       value: PauseController

@@ -19,7 +19,8 @@ public class VolumeController : MonoBehaviour
 
     private void Awake()
     {
-       
+        pauseCanvas = GameObject.FindGameObjectWithTag("pause");
+
         FindSliders();
     }
     // Start is called before the first frame update
@@ -32,10 +33,13 @@ public class VolumeController : MonoBehaviour
         float savedMainVolume = PlayerPrefs.GetFloat("MainVolume", 1f);
         float savedMusicVolume = PlayerPrefs.GetFloat("MusicVolume", 1f);
         float savedSFXVolume = PlayerPrefs.GetFloat("SFXVolume", 1f);
+
         MasterSlider.value = savedMainVolume;
         MusicSlider.value = savedMusicVolume;
         SFXSlider.value = savedSFXVolume;
-        pauseCanvas = GameObject.FindGameObjectWithTag("pause");
+
+        
+
         if (PlayerPrefs.HasKey("MainVolume"))
         {
             LoadMainVolume();
@@ -67,7 +71,7 @@ public class VolumeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pauseCanvas.activeSelf)
+        if(pauseCanvas.activeSelf)
         {
             Debug.Log("FIND SLIDERS");
             FindSliders();
@@ -106,7 +110,7 @@ public class VolumeController : MonoBehaviour
 
        
         GameObject masterslid = GameObject.FindGameObjectWithTag("MainMusic");
-        GameObject musicslid = GameObject.FindGameObjectWithTag("Music");
+        GameObject musicslid = GameObject.FindGameObjectWithTag("MusicSlider");
         GameObject sfxslid = GameObject.FindGameObjectWithTag("SFX");
         if (masterslid != null)
         {

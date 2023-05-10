@@ -16,6 +16,7 @@ TagManager:
   - pause
   - ACSFX
   - Projectile
+  - MusicSlider
   layers:
   - Default
   - TransparentFX

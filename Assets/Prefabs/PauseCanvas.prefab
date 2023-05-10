@@ -1224,6 +1224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MusicSlider
       objectReference: {fileID: 0}
+    - target: {fileID: 709037284598100968, guid: 87108f5ba527946448cc1a8236783904, type: 3}
+      propertyPath: m_TagString
+      value: MusicSlider
+      objectReference: {fileID: 0}
     - target: {fileID: 709037284598100969, guid: 87108f5ba527946448cc1a8236783904, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
