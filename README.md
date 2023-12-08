@@ -1,2 +1,2 @@
 # Ballon-Popper-Game
-CISC 3667 Lab game
+Full Game can be played at  -  https://shudeki.itch.io/diaz-fredy-ballon-popper
